@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AL-BARAKA — fruits secs, graines et miel sélectionnés avec soin.">
+<title>AL-BARAKA — Le goût authentique de la nature</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar">Livraison partout au Maroc <span>•</span> Des produits sélectionnés avec soin</div>
+<header class="header">
+  <a class="brand" href="#accueil"><span class="brand-icon">✦</span><span>AL-BARAKA<small>LE GOÛT DE LA NATURE</small></span></a>
+  <button class="menu" id="menu" aria-label="Ouvrir le menu">☰</button>
+  <nav id="nav"><a href="#accueil">Accueil</a><a href="#produits">Nos produits</a><a href="#histoire">Notre histoire</a><a href="#contact">Contact</a></nav>
+  <button class="cart-btn" id="openCart">Panier <span id="count">0</span></button>
+</header>
+<main>
+<section class="hero" id="accueil">
+ <div class="hero-content"><div class="kicker"><i></i> LA NATURE, TOUT SIMPLEMENT</div>
+  <h1>Le goût vrai.<br><em>La nature en cadeau.</em></h1>
+  <p>Des fruits secs croquants, des graines de qualité et un miel savoureux pour vos petits plaisirs du quotidien.</p>
+  <div class="actions"><a class="primary" href="#produits">Découvrir la collection <span>↗</span></a><a class="underlink" href="#histoire">Notre histoire</a></div>
+  <div class="trust"><span>★★★★★</span> Des produits sélectionnés avec soin</div>
+ </div>
+ <div class="hero-visual">
+  <div class="back-shape"></div><div class="round-label">100%<small>PLAISIR<br>NATUREL</small></div>
+  <div class="honey-jar"><div class="jar-cap"></div><div class="jar-glass"></div><div class="jar-sticker"><b>AL-BARAKA</b><small>MIEL DORÉ</small><span>✦</span></div></div>
+  <div class="nut-bowl bowl-left"><span>🌰</span></div><div class="nut-bowl bowl-right"><span>🥜</span></div>
+  <div class="decor-leaf leaf-a"></div><div class="decor-leaf leaf-b"></div><div class="visual-caption">BON · SIMPLE · NATUREL</div>
+ </div>
+</section>
+<section class="benefits"><div><span class="benefit-icon">✳</span><p><b>Sélection soignée</b><small>La qualité avant tout</small></p></div><div><span class="benefit-icon">♧</span><p><b>Inspiré par la nature</b><small>Des produits authentiques</small></p></div><div><span class="benefit-icon">⌁</span><p><b>Livraison au Maroc</b><small>Directement chez vous</small></p></div></section>
+<section class="products section" id="produits"><div class="section-title"><div><div class="kicker">NOTRE SÉLECTION</div><h2>Les favoris de la nature<span>.</span></h2></div><p>De bons ingrédients pour des moments simples et savoureux.</p></div>
+ <div class="filters"><button class="filter active" data-filter="Tous">Tout voir</button><button class="filter" data-filter="Fruits secs">Fruits secs</button><button class="filter" data-filter="Graines">Graines</button><button class="filter" data-filter="Miel">Miel</button></div>
+ <div class="grid" id="grid"></div>
+</section>
+<section class="story" id="histoire"><div class="story-image"><div class="story-sun"></div><div class="plant">❧</div><div class="stamp">CHOISI<br>AVEC SOIN</div></div><div class="story-text"><div class="kicker">NOTRE PHILOSOPHIE</div><h2>Simplement bon.<br><em>Naturellement.</em></h2><p>Chez AL-BARAKA, nous croyons que les bonnes choses sont souvent les plus simples. Nous mettons à l’honneur les fruits secs, les graines et le miel pour apporter une touche de nature à vos journées.</p><a class="underlink" href="#contact">Découvrir notre engagement ↗</a></div></section>
+<section class="newsletter section" id="contact"><div class="kicker">RESTONS EN CONTACT</div><h2>Un peu de nature<br>dans votre quotidien.</h2><p>Inscrivez-vous pour recevoir nos nouveautés.</p><form id="newsletter"><input type="email" id="email" placeholder="Votre adresse e-mail" required><button class="primary">Je m'inscris ↗</button></form><small id="note">Pas de spam. Promis.</small></section>
+</main>
+<footer><a class="brand" href="#accueil"><span class="brand-icon">✦</span><span>AL-BARAKA<small>LE GOÛT DE LA NATURE</small></span></a><p>Le goût authentique de la nature.</p><div class="footlinks"><a href="#produits">Produits</a><a href="#histoire">Notre histoire</a><a href="#contact">Contact</a></div><small class="copyright">© 2026 AL-BARAKA · Prototype de boutique à personnaliser</small></footer>
+<div class="overlay" id="overlay"></div><aside class="drawer" id="drawer"><div class="drawer-head"><h3>Votre panier</h3><button id="closeCart">×</button></div><div id="cartItems" class="cart-items"></div><div class="drawer-bottom"><div class="total"><span>Total estimé</span><b id="total">0 DH</b></div><button class="primary full" id="order">Commander via WhatsApp ↗</button><small>Configurez votre numéro WhatsApp dans script.js avant utilisation.</small></div></aside>
+<script src="script.js"></script>
+</body></html>
